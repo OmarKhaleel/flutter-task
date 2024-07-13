@@ -1,0 +1,38 @@
+name: flutter_task
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Flutter BloC Dependency
+  flutter_bloc: ^8.1.6
+
+  # Custom Repository
+  user_repository:
+    path: packages/user_repository
+
+  # Firebase Dependencies
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+
+  # Other Dependencies
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/progress_soft_logo.png

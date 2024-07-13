@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_app_id">AIzaSyBAmYxsUK9Z4H6kv1fAEkG4MJmAvplEmnc</string>
+    <string name="google_api_key">AIzaSyBAmYxsUK9Z4H6kv1fAEkG4MJmAvplEmnc</string>
+    <string name="firebase_database_url">https://console.firebase.google.com/u/0/project/flutter-task-4ae66/firestore/databases/-default-/data/~2F</string>
+    <string name="gcm_defaultSenderId">764356057505</string>
+    <string name="project_id">flutter-task-4ae66</string>
+</resources>
